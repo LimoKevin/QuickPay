@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <title>QuickPay</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="nav-bar">
+                <div class="logo">
+                    <h2>Quick<span>Pay</span></h2>
+                </div>
+                <div class="nav-links">
+                    <div class="nav-links-text">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                    <a href="#">Support</a>
+                    </div>
+                
+                    <div class="profile">
+                        <div class="notification">
+    
+                        </div>
+                        <div class="prof">
+                            <div class="profile-image">
+                                
+                            </div>
+                            <div class="profile-info">
+                                <p>John Doe</p>
+                            </div>
+                        </div>
+                   </div>
+                
+                </div>
+            </div>
+        </div>
+
+        <!-- END OF NAV BAR -->
+
+        <div class="greetings">
+            <h2>Hi, John</h2>
+            <h4>Here is where you can transact.</h4>
+        </div>
+
+        <div class="card">
+            <div class="write-tag inner" id="write-btn">
+                <div class="icon-write icon" id="write-btn"></div>
+                <h3 id="write-text">Write Tag</h3>
+            </div>
+            <div class="scan-tag inner" id="scan-btn">
+                <div class="icon-scan icon"></div>
+                <h3 id="scan-text">Scan Tag</h3>
+            </div>
+            <div class="remove-tag inner">
+                <div class="icon-remove icon"></div>
+                <h3>Remove Tag</h3>
+            </div>
+        </div>
+
+        <div class="recycler">
+            <div class="info" id="write-content">
+                <form action="write.php">
+                    <h3>Write Tag</h3>
+                    <input type="text" placeholder="Phone number">
+                    <div class="line"></div>
+                    <input type="text"placeholder="Tag number">
+                    <div class="line"></div>
+                    <button type="submit" class="write-btn">Write</button>
+
+                </form>
+            </div>
+            <div class="scan-tag-info" id="scan-content">
+                <h3><span>scan Tag</span></h3>
+                <div class=" circle">
+                <div class=" inner-circle"></div>
+                </div>
+
+                <p>Hold the NFC tag near this device.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; 2010-2024 Quick Pay All rights reserved.</p>
+            </div>
+            <div class="language">
+                <p class="lang">English</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/home.js"></script>
+</body>
+</html>

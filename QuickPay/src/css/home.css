@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: green;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    max-width:  100%;
+    min-width: 100%;
+    padding-top: 2%;
+    margin-bottom: 1rem;
+    align-items: center;
+    background: white;
+}
+
+.logo{
+    padding-left: 10%;
+    padding-right: 30%;
+}
+.nav-links{
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links a{
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #212121;
+    font-size: 16px;
+}
+.nav-links .nav-links-text{
+    display: flex; 
+}
+
+.nav-links .nav-links-text a{
+    margin-right: 1rem;
+}
+.profile{
+    display: flex;
+    padding-left: 20%;
+    align-items: center;
+}
+.notification{
+    height: 1.5rem;
+    width: 1.5rem;
+    content: url('../img/notification.png');
+}
+.prof{
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+}
+.profile-image{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+    content: url(../img/pf1.jpg);
+    border-radius: 1rem;
+}
+.profile-info{
+    color: #262525c8;
+    font-size: 14px;
+}
+/* END OF NAV BAR */
+
+.greetings{
+    height: 4rem;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #252525;
+}
+.greetings h2{
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+.greetings h4{
+    font-size: 15px;
+    color: #252525ca;
+}
+
+.card{
+    height: 20%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 2px 1px #bbbaba;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+.inner{
+    height: 100%;
+    width: 30%;
+  
+}
+.icon{
+    height: 50%;
+    width: 30%;
+    padding-left: 35%;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    /* content: url('../img/icon1.png'); */
+}
+.inner h3{
+    text-align: center;
+    font-size: 14px;
+    color: #252525;
+    padding-bottom: 8%;
+}
+.write-tag h3{
+    color: green;
+}
+.write-tag .icon{
+    content: url('../img/nfc.png');
+}
+.scan-tag .icon{
+    content: url('../img/write.png');
+}
+.remove-tag .icon{
+    content: url('../img/remove.png');
+}
+
+
+.recycler{
+    height: 18rem;
+    margin-top: 5%;
+    padding-left: 10%;
+    /* background-color: greenyellow; */
+}
+
+.recycler .info{
+    display: block;
+    height: 100%;
+    width: 30%;
+    margin-left: 30%;
+}
+.info h3{
+    color: green;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.info input{
+    width: 90%;
+    display: block;
+    padding: 0.7rem 1rem;
+    border: none;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    border: 15px;
+    background-color: green;
+    margin-bottom: 1.5rem;
+}
+.write-btn{
+    width: 100%;
+    padding: 3.5%;
+    margin-top: 5%;
+    border-radius: 15px;
+    border: none;
+    background-color: green;
+    font-size: medium;
+    color: white;
+}
+
+/* scan tag */
+
+.scan-tag-info{
+    display: none;
+    height: 100%;
+    width: 30%;
+    margin-left: 30%;
+    text-align: center;
+
+    /* background-color: green; */
+}
+.scan-tag-info h3{
+    text-align: center;
+}
+.scan-tag-info .circle{
+    height: 8rem;
+    width: 8rem;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    border: 2px solid #212121;
+    border-radius: 4rem;
+}
+.scan-tag-info .inner-circle{
+    height: 4rem;
+    width: 4rem;
+    padding: 2rem;
+    content: url('../img/write.png');
+}
+.scan-tag-info p{
+    font-size: 15px;
+}
+
+
+/* FOOTER SECTION */
+
+
+.footer{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* position: bottom; */
+    bottom: 1rem;
+    left: 0;
+    font-size: 14px;
+    align-items: center;
+}
+.footer .copyright{
+    padding-left: 10%;
+}
+.footer .language{
+    margin-right: 10%;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    font-size: small;
+}

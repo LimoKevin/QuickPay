@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>QuickPay NFC</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="overlay" id="overlay"></div>
+        <div class="nav-bar">
+            <div class="logo">
+                <h2>Quick<span>Pay</span></h2>
+            </div>
+            <div class="nav-links">
+                <div class="nav-links-text">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                <a href="#">Support</a>
+                </div>
+            
+                <div class="buttons">
+                   <a href="#"><button type="submit" name="login" id="btn-login">Login</button></a> 
+                    <a href="#"><button type="submit" name="signup" id="btn-register">SignUp</button></a>
+                </div>
+            
+            </div>
+        </div>
+<!-- END OF NAVBAR -->
+
+        <div class="hero">
+            <div class="hero-text">
+                <h1>QuickPay NFC</h1>
+                <p> 
+                    Introducing our cutting-edge NFC payment application,
+                    revolutionizing the way you transact seemlessly and securely. 
+                    Our NFC payment app is designed for ultimate speed and conviniece, outpacing the 
+                    traditional payment methods with its lightning-fast transactions.
+                </p>
+
+                <a href="src/html/home.html"><button type="submit" name="more">Get Started</button></a>
+            </div>
+            <div class="hero-image">
+                <!-- <img src="showcase.jpg" alt=""> -->
+            </div>
+        </div>
+        
+    </div>
+    <!-- modal card -->
+    <div class="login-card" id="modal-login">
+        <h4 class="header">Quick pay</h4>
+        <h2 class="login-header">Login</h2>
+        <form action="login.php" method="post">
+            <input type="text" id="name" name="name" placeholder="Username" required>
+            <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+
+            <p class="forgot">forgot password?</p>
+            <button type="submit" class="login-btn">Login</button>  
+
+           <a href="register.html"> <p class="sign-up">Don't have an account? <span> Sign up.</span></p></a>
+        </form>
+    </div>
+
+    <!-- modal card -->
+    <div class="register-card" id="modal-register">
+        <h4 class="header">Quick pay</h4>
+        <h2 class="login-header">Register</h2>
+        <form action="register.php" method="post">
+            <input type="text" id="name" name="name" placeholder="Username" required>
+            <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+
+            <button type="submit" class="login-btn">Register</button>  
+
+           <a href="#"> <p class="sign-up">Already a user? <span> Login.</span></p></a>
+        </form>
+    </div>
+   
+    <div class="footer">
+        <div class="copyright">
+            <p>Copyright &copy; 2010-2024 Quick Pay All rights reserved.</p>
+        </div>
+        <div class="language">
+            <p class="lang">English</p>
+        </div>
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
+
